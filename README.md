@@ -96,6 +96,8 @@ The sprint associated with testing is shown below.
 
 The final sprint, which is currently in progress, is shown below.
 
+![finalSprint][finalSprint]
+
 
 The board has been designed such that elements of the project move from left to right from their point of conception to being finished and fully implemented. Each card is also colour-coded according to which element of the project it pertains. From left to right, these lists are:
 * *Project Requirements*
@@ -207,3 +209,4 @@ Basia Adamiec
 [finalJira]:https://i.imgur.com/sc0DBAW.png
 [childIssues]:https://i.imgur.com/7OINaUk.png
 [testSprint]:https://i.imgur.com/FARjsuE.png
+[finalSprint]:(https://i.imgur.com/Q75My2B.png
