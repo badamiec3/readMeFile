@@ -131,9 +131,12 @@ Similarly, the commit history for the back-end code is shown below. Several bran
 
 ## Spring Boot
 Spring Boot is a Java-based framework which allows for easy deployment of Java applications.
+
 The documentation can be accessed here: https://spring.io/projects/spring-boot
 
+A working view of the Spring IDE is shown below along with the controller class for Footnote's back-end.
 
+![springIDE][springIDE]
 
 ## Testing
 Testing the functionality of the service class was done using the testing framework Mockito. It allows for testing without establishing connections through using mock objects which return mock data. The integration tests on the controller class were conducted using MockMVC which supports Spring MVC. JUnit, an in-built test framework for Java applications, was used to run the tests. JUnit produces a report on the status and outcome of each test, detailing which were successful, which had errors, and showing any failure traces in a console.
@@ -191,3 +194,4 @@ Basia Adamiec
 [tests]:https://i.imgur.com/j63yWBO.png
 [gitFront]:https://i.imgur.com/Ltf6KM2.png
 [gitBack]:https://i.imgur.com/cdZx6q1.png
+[springIDE]:https://i.imgur.com/sE2H0f8.png
