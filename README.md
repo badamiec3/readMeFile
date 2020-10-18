@@ -118,6 +118,12 @@ The user can then enter the title, author, and description of the book, select a
 
 ![createNote][createNote]
 
+Upon hitting the 'Create' button, a new note card is generated displaying the user input, as shown below. 
+
+![newNote][newNote]
+
+As well as creating more notes, the user may change the information on the existing notes by entering the new information and hitting the 'Update' button. Note cards can be removed using the bin icon towards the bottom of the note. Ticking or un-ticking the 'Read' checkbox updates the database 'nowRead' attribute for each book note and sets it as a default for the existing notes.
+
 
 
 
@@ -167,3 +173,4 @@ Basia Adamiec
 [jira]:https://i.imgur.com/UAMKolj.png
 [appGif]:https://i.imgur.com/1AISLGQ.gif
 [createNote]:https://i.imgur.com/1ZRRAJH.png
+[newNote]:https://i.imgur.com/HVriQlx.png
