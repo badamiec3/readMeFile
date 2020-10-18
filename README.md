@@ -116,8 +116,8 @@ Below is a table of circumstances which could inhibit the ability to achieve the
 
 ## Version Control System
 Git was used as the version control system for this project, with two GitHub repositories utilised to store and back up code:
-* CRUD-Project-Front-End: a repository for the HTML, JS and CSS code used to design the front-end user interface;
-* CRUD-Project: a repository for the Java-based Springboot code and test suites.
+* CRUD-Project-Front-End: a repository for the HTML, JavaScript and CSS code used to design the front-end user interface;
+* CRUD-Project: a repository for the Java-based Spring Boot code and test suites.
 
 The links to these repositories can be found at the top of this page.
 
