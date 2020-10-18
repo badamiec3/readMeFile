@@ -11,6 +11,7 @@
 * [Architecture](#architecture)
 * [Project Tracking](#project-tracking)
 * [Risk Assessment](#risk-assessment)
+* [Version Control System](#version-control-system)
 * [Testing](#testing)
 * [Front-End Design](#front-end-design)
 * [Known Issues](#known-issues)
