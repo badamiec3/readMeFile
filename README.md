@@ -15,6 +15,7 @@
 * [Project Tracking](#project-tracking)
 * [Risk Assessment](#risk-assessment)
 * [Version Control System](#version-control-system)
+* [Springboot](#springboot)
 * [Testing](#testing)
 * [Front-End Design](#front-end-design)
 * [Known Issues](#known-issues)
@@ -53,15 +54,22 @@ To meet these requirements, I have created an app which lets the user to do the 
    * *Description* (satisfies the 'Create' requirement);
 * View the created note cards (satisfies the 'Read' requirement);
 * Update the note cards (satisfies the 'Update' requirement);
-* Delete the note card(s) (satisfies the 'Delete'requirement);
+* Delete the note card(s) (satisfies the 'Delete'requirement).
 
 Additionally, I would like to allow the user to:
 * Tick a checkbox to signify that they have read or bought the book;
-* Select a custom colour for the note card they are creating;
+* Select a custom colour for the note card they are creating.
 
-## Architecture??
+## Architecture
+In order to meet the project specifications, the following tools were used:
 
-
+* Jira Kanban board for project planning;
+* In-memory h2 database to store book note data;
+* Java programming language and Springboot application framework to develop and run back-end code;
+* HTML, CSS, JavaScript and Visual Studio Code to develop and run front-end code on a live local server;
+* JUnit and Mockito to run unit tests;
+* MockMVC to run integration tests;
+* Git and GitHub repositories as a Version Control System.
 
 ## Project Tracking
 The progress of the project was tracked using JiraSoftware.
@@ -122,6 +130,8 @@ The commit history for the front-end code is shown below, with progress on the b
 Similarly, the commit history for the back-end code is shown below. Several branches were created progressively as functionality was developed to meet the requirements on the Jira board with user stories completed step by step. The final branch was merged to the main branch once all user story requirements were met.
 
 ![gitBack][gitBack]
+
+## Springboot
 
 ## Testing
 
