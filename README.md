@@ -155,7 +155,7 @@ Upon access, the user is directed to the following screen:
 
 ![appGif][appGif]
 
-The user can then enter the title, author, and description of the book, select a colour of the note card, and tick a checkbox if they have read/bought the book already, as seen below.
+The user can then enter the title, author, and description of the book, select a colour of the note card, and tick a checkbox if they have read/bought the book already, as shown below.
 
 ![createNote][createNote]
 
