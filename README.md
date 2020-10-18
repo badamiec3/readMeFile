@@ -1,7 +1,7 @@
 # Footnote
 
 ### Resources:
-* Presentation: https://docs.google.com/presentation/d/1C0J2M6T_B_fquxnGgjRV6K_arbpyLvmv8f2Z-C-wYa0/edit?usp=sharing
+* Presentation: ENTER PRESENTATION LINK
 * Jira: https://badamiec.atlassian.net/jira/software/projects/CAF/boards/3/backlog
 
 ## Contents
@@ -76,6 +76,21 @@ The template used was a Kanban board, and a snapshot of the first sprint is show
 
 
 ![jira][jira]
+
+The design of the project was split up into three epics:
+* Create CRUD Book Note Application
+* Apply Testing To Application
+* Create Documentation and Present
+
+Each epic has assigned to it user stories with requirements which must be met before the epic can be marked as complete. The user stories themselves have associated tasks, or 'child issues', which must be completed before a sprint can be completed. 
+
+The child issues of a user story from the first epic are shown below. 
+
+![childIssues][childIssues]
+
+Second sprint
+
+The 
 
 The board has been designed such that elements of the project move from left to right from their point of conception to being finished and fully implemented. Each card is also colour-coded according to which element of the project it pertains. From left to right, these lists are:
 * *Project Requirements*
@@ -185,3 +200,4 @@ Basia Adamiec
 [newNote]:https://i.imgur.com/HVriQlx.png
 [coverage]:https://i.imgur.com/kRlWrnl.png
 [finalJira]:https://i.imgur.com/sc0DBAW.png
+[childIssues]:https://i.imgur.com/7OINaUk.png
