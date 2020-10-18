@@ -34,7 +34,7 @@ In other words, the objective is to create an application which utilises create,
 
 ### Additional Requirements
 The requirements for the project are as follows:
-* A Jira Board with full expansion on user stories, use cases and tasks needed to complete the project
+* A Jira Board with full expansion on user stories, use cases and tasks needed to complete the project;
 * Clear Documentation from a design phase describing the architecture used for the project;
 * A detailed Risk Assessment created at the beginning of the project;
 * A relational database used to store data for the project; 
