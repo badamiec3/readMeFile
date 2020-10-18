@@ -3,7 +3,6 @@
 ### Resources:
 * Presentation: https://docs.google.com/presentation/d/1C0J2M6T_B_fquxnGgjRV6K_arbpyLvmv8f2Z-C-wYa0/edit?usp=sharing
 * Jira: https://badamiec.atlassian.net/jira/software/projects/CAF/boards/3/backlog
-* Website: http://35.214.26.193:8001/
 
 ## Contents
 * [Brief](#brief)
@@ -20,7 +19,8 @@
 * [Future Improvements](#future-improvements)
 * [Authors](#authors)
 
-## Brief
+## Fuctionality
+
 The brief provided to us for this project sets the following out as its overall objective:
 "To create a CRUD application with utilisation of supporting tools, methodologies and technologies that encapsulate all core modules covered during training."
 
