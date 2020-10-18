@@ -82,15 +82,20 @@ The design of the project was split up into three epics:
 * Apply Testing To Application
 * Create Documentation and Present
 
-Each epic has assigned to it user stories with requirements which must be met before the epic can be marked as complete. The user stories themselves have associated tasks, or 'child issues', which must be completed before a sprint can be completed. 
+Each epic has assigned to it user stories with requirements which must be met before an epic can be marked as complete. The user stories detail discrete functionalities necessary to ensure a smooth user functionality. The user stories themselves have associated tasks, or 'child issues', which must be completed before a sprint can be completed. They are more technical and specific to what must be done in order to meet the functionality requirememnts. 
 
 The child issues of a user story from the first epic are shown below. 
 
 ![childIssues][childIssues]
 
-Second sprint
+The user stories and child issues were assigned story points to assess the expected difficulty and time spent in order to complete them.
 
-The 
+The sprint associated with testing is shown below.
+
+![testSprint][testSprint]
+
+The final sprint, which is currently in progress, is shown below.
+
 
 The board has been designed such that elements of the project move from left to right from their point of conception to being finished and fully implemented. Each card is also colour-coded according to which element of the project it pertains. From left to right, these lists are:
 * *Project Requirements*
@@ -201,3 +206,4 @@ Basia Adamiec
 [coverage]:https://i.imgur.com/kRlWrnl.png
 [finalJira]:https://i.imgur.com/sc0DBAW.png
 [childIssues]:https://i.imgur.com/7OINaUk.png
+[testSprint]:https://i.imgur.com/FARjsuE.png
