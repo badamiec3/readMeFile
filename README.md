@@ -2,7 +2,7 @@
 
 ### Resources:
 * Presentation: https://docs.google.com/presentation/d/1C0J2M6T_B_fquxnGgjRV6K_arbpyLvmv8f2Z-C-wYa0/edit?usp=sharing
-* Jira: https://trello.com/b/UfMXjN8h/constellations
+* Jira: https://badamiec.atlassian.net/jira/software/projects/CAF/boards/3/backlog
 * Website: http://35.214.26.193:8001/
 
 ## Contents
@@ -85,7 +85,8 @@ This process is handled by a Jenkins 'pipeline' job with distinct build stages. 
 Once the app is considered stable, it is then pushed to a separate VM for deployment. This service is run using the Python-based HTTP web server Gunicorn, which is designed around the concept of 'workers' who split the CPU resources of the VM equally. When users connect to the server, a worker is assigned to that connection with their dedicated resources, allowing the server to run faster for each user.
 
 ## Project Tracking
-Trello was used to track the progress of the project (pictured below). You can find the link to this board here: https://trello.com/b/UfMXjN8h/constellations
+JiraSoftware was used to track the progress of the project (pictured below). You can find the link to this board here: https://badamiec.atlassian.net/jira/software/projects/CAF/boards/3/backlog
+
 
 ![trello][trello]
 
