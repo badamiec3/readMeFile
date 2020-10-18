@@ -27,9 +27,10 @@
 Footnote is an interactive application which allows users to create custom note cards on which they can record a book title, author, genre and description. The users can also choose a custom card colour and tick a box if they have read or bought the book already. The user can also view all the created notes, update existing notes, and remove notes. 
 
 The application was created for a project with the following objective:
+
 "To create a CRUD application with utilisation of supporting tools, methodologies and technologies that encapsulate all core modules covered during training."
 
-In other words, the objective is to create an application which utilises create, read, update and delete functions and can be interacted with using front-end and back-end tools, technologies and programming languages learned during training.
+In other words, the objective is to create an application which utilises create, read, update and delete functions and can be interacted with using front-end and back-end tools, technologies and programming languages covered during training.
 
 ### Additional Requirements
 The requirements for the project are as follows:
