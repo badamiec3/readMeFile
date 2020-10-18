@@ -68,7 +68,9 @@ Additionally, I would like to allow the user to:
 ## Project Tracking
 The progress of the project was tracked using JiraSoftware.
 
-You can find the link to this board here: https://badamiec.atlassian.net/jira/software/projects/CAF/boards/3/backlog
+The following is the link to the board: https://badamiec.atlassian.net/jira/software/projects/CAF/boards/3/backlog
+
+The state of the board reflects the current state of the project. Old sprints and information on past progress can be accessed in the reports section.
 
 The template used was a Kanban board, and a snapshot of the first sprint is shown below.
 
@@ -90,6 +92,11 @@ The board has been designed such that elements of the project move from left to 
    Once the element has been created, it moves to the 'testing' list, where its functionality is tested.
 * *Finished*
    Any element that is considered to be finished (i.e. works according to its specification) lives in this list.
+   
+The state of the board as this documentation is being compiled is shown below.
+
+![finalJira][finalJira]
+
 
 ## Risk Assessment
 The risk assessment for this project can be found in full here: https://docs.google.com/spreadsheets/d/1WfKQAjsBfErpQOywRmnZbCe6zw7yFxESFB8WhQd69Es/edit?usp=sharing
@@ -177,3 +184,4 @@ Basia Adamiec
 [createNote]:https://i.imgur.com/1ZRRAJH.png
 [newNote]:https://i.imgur.com/HVriQlx.png
 [coverage]:https://i.imgur.com/kRlWrnl.png
+[finalJira]:https://i.imgur.com/sc0DBAW.png
