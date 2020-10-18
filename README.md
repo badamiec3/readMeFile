@@ -7,7 +7,7 @@
 * Back-End Code Repo:https://github.com/badamiec3/CRUD-Project
 
 ## Contents
-* [Brief](#brief)
+* [Fuctionality of Footnote](#fuctionality-of-footnote)
    * [Additional Requirements](#additional-requirements)
    * [My Approach](#my-approach)
 * [Architecture](#architecture)
@@ -20,12 +20,13 @@
 * [Future Improvements](#future-improvements)
 * [Authors](#authors)
 
-## Fuctionality
+## Fuctionality of Footnote
+Footnote is an interactive application which allows users to create custom note cards on which they can record a book title, author, genre and description. The users can also choose a custom card colour and tick a box if they have read or bought the book already. The user can also view all the created notes, update existing notes, and remove notes. 
 
-The brief provided to us for this project sets the following out as its overall objective:
+The application was created for a project with the following objective:
 "To create a CRUD application with utilisation of supporting tools, methodologies and technologies that encapsulate all core modules covered during training."
 
-In other words, I have been tasked with creating an application that utilises create, read, update and delete functions in order to function, such that I can demonstrate that I've learnt something over the last few weeks.
+In other words, the objective is to create an application which utilises create, read, update and delete functions and can be interacted with using front-end and back-end tools, technologies and programming languages learned during training.
 
 ### Additional Requirements
 The requirements for the project are as follows:
@@ -41,28 +42,19 @@ The requirements for the project are as follows:
 * Code fully integrated into a Version Control System.
 
 ### My Approach
-To achieve this, I have decided to produce a simple stargazing companion app that must allow the user to do the following:
-* Create a user account (satisfies 'Create') that stores:
-   * *User Name*
-   * *First and Last Name*
-   * *Email*
-   * *Password*
-* Create posts of observations that they have made whilst stargazing (satisfies 'Create') with the following information:
-   * *Title* of the post
-   * *Author* of the post
-   * *Date and time* that the post was made
-   * *Observers* who also took part in this observation (essentially tagging other users in a post)
-   * *Location* at which the observation took place
-   * *Azimuth* coordinate of the observed object 
-   * *Altitude* coordinate of the observed object
-   * *Description* of the observation
-* View and update their account details (satisfies 'Read' and 'Update')
-* Delete their account (satisfies 'Delete')
-* Read observations they and other users have created (satisfies 'Read')
+To meet these requirements, I have created an app which lets the user to do the following:
+* Create a book note card which stores:
+   * *Title*
+   * *Author*
+   * *Genre*
+   * *Description* (satisfies the 'Create' requirement);
+* View the created note cards (satisfies the 'Read' requirement);
+* Update the note cards (satisfies the 'Update' requirement);
+* Delete the note card(s) (satisfies the 'Delete'requirement);
 
 Additionally, I would like to allow the user to:
-* Tick a checkbox 
-* Select a custom colour for the note card they are creating
+* Tick a checkbox to signify that they have read or bought the book;
+* Select a custom colour for the note card they are creating;
 
 ## Architecture??
 
