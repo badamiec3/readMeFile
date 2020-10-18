@@ -7,7 +7,8 @@
 * Back-End Code Repo:https://github.com/badamiec3/CRUD-Project
 
 ## Contents
-* [Fuctionality of Footnote](#fuctionality-of-footnote)
+* [Footnote](#footnote)
+   * [Functionality](#functionality)
    * [Additional Requirements](#additional-requirements)
    * [My Approach](#my-approach)
 * [Architecture](#architecture)
@@ -20,7 +21,9 @@
 * [Future Improvements](#future-improvements)
 * [Authors](#authors)
 
-## Fuctionality of Footnote
+## Footnote
+
+### Functionality
 Footnote is an interactive application which allows users to create custom note cards on which they can record a book title, author, genre and description. The users can also choose a custom card colour and tick a box if they have read or bought the book already. The user can also view all the created notes, update existing notes, and remove notes. 
 
 The application was created for a project with the following objective:
