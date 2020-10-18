@@ -150,7 +150,7 @@ There are a few bugs with the current build of the app:
 There are several features of the application I would like to improve:
 * Currently, the drop-down list for genre options is only available on the "Create" card. When a user wants to update the genre on an existing card, currently there is no drop-down list available after clicking on the input element. A possible future improvement would be to create this functionality.
 * Due to the fact that the element displaying the description on an existing card is an input, there is no possibility to set an overflow attribute to scroll for longer descriptions. Instead, the user has to move along the input box to read the book description. A future improvement would be to turn the description element into a paragraph, making it possible to change the overflow attribute to display longer descriptions more clearly.
-* Due to time constraints the database currently used is the h2 in-memory database. Migrating onto a cloud-based MySQL database would allow for persistent storage of note cards, which would make them accesible after the back-end and database access is restarted.
+* Due to time constraints the database currently used is the h2 in-memory database. Migrating onto a cloud-based MySQL database would allow for persistent storage of note cards, which would make them accessible after the back-end and database access is restarted.
 * Improving the aesthetical appearance of the front-end further is also on the agenda for future improvements using Bootstrap.
 * A section could be added along the top of the page allowing the user to customise and personalise their profile picture and personal details.
 
