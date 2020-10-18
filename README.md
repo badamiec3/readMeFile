@@ -163,5 +163,5 @@ Basia Adamiec
 [finalJira]:https://i.imgur.com/sc0DBAW.png
 [childIssues]:https://i.imgur.com/7OINaUk.png
 [testSprint]:https://i.imgur.com/FARjsuE.png
-[finalSprint]:(https://i.imgur.com/Q75My2B.png
+[finalSprint]:https://i.imgur.com/Q75My2B.png
 [tests]:https://i.imgur.com/j63yWBO.png
