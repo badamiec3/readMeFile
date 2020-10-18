@@ -99,6 +99,8 @@ Here's a quick screenshot:
 ![RiskAssessment][riskassessment]
 
 ## Testing
+
+Testing the functionality of the Service Class was done using Mockito. 
 pytest is used to run unit tests on the app. These are designed to assert that if a certain function is run, the output should be a known value. Jenkins produces console outputs (pictured below) that will inform the developer how many tests the code passed and which tests they failed.
 
 ![pytestconsole][pytestconsole]
@@ -158,7 +160,7 @@ Basia Adamiec
 [erd1]: https://i.imgur.com/p9wji5S.png
 [ci]: https://i.imgur.com/2G7joFp.png
 [riskassessment]: https://i.imgur.com/btY8HRY.png
-[coverage]: https://i.imgur.com/WDaANiD.png
+
 [pytestconsole]: https://i.imgur.com/qaa3uzp.png
 [trello]: https://i.imgur.com/etDOlwa.png
 [buildstages]: https://i.imgur.com/ba7ntAo.png
@@ -174,3 +176,4 @@ Basia Adamiec
 [appGif]:https://i.imgur.com/1AISLGQ.gif
 [createNote]:https://i.imgur.com/1ZRRAJH.png
 [newNote]:https://i.imgur.com/HVriQlx.png
+[coverage]:https://i.imgur.com/kRlWrnl.png
