@@ -120,9 +120,13 @@ Git was used as the version control system for this project, with two GitHub rep
 
 The links to these repositories can be found at the top of this page.
 
-The commit history for the front-end code is shown below, with progress on the basic CRUD functionality taking place on the dev branch eventually merged onto the master branch, and additional features developed in the feature branch.
+The commit history for the front-end code is shown below, with progress on the basic CRUD functionality taking place on the dev branch eventually merged onto the main branch, and additional features developed in the feature branch before merging to the main branch.
 
 ![gitFront][gitFront]
+
+Similarly, the commit history for the back-end code is shown below. Several branches were created progressively as functionality was developed to meet the requirements on the Jira board with user stories completed step by step. The final branch was merged to the main branch once all user story requirements were met.
+
+![gitBack][gitBack]
 
 ## Testing
 
@@ -180,3 +184,4 @@ Basia Adamiec
 [finalSprint]:https://i.imgur.com/Q75My2B.png
 [tests]:https://i.imgur.com/j63yWBO.png
 [gitFront]:https://i.imgur.com/Ltf6KM2.png
+[gitBack]:https://i.imgur.com/cdZx6q1.png
