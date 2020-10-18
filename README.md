@@ -46,7 +46,7 @@ The requirements for the project are as follows:
 * Code fully integrated into a Version Control System.
 
 ### My Approach
-To meet these requirements, I have created an app which lets the user to do the following:
+To meet these requirements, I have created an app which lets the user do the following:
 * Create a book note card which stores:
    * *Title*
    * *Author*
