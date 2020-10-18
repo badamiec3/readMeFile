@@ -124,7 +124,7 @@ Upon hitting the 'Create' button, a new note card is generated displaying the us
 
 ![newNote][newNote]
 
-As well as creating more notes, the user may change the information on the existing notes by entering the new information and hitting the 'Update' button. Note cards can be removed using the bin icon towards the bottom of the note. Ticking or un-ticking the 'Read' checkbox updates the database 'nowRead' attribute for each book note and sets it as a default for the existing notes.
+As well as creating more notes, the user may change the information on the existing notes by entering the new information directly into the fields and using the 'Update' button. Note cards can be removed using the bin icon towards the bottom of the note. Ticking or un-ticking the 'Read' checkbox updates the database 'nowRead' attribute for each book note and sets it as a default for the existing notes.
 
 
 
