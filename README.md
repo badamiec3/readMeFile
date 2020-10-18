@@ -176,4 +176,4 @@ Basia Adamiec
 [homenewobservation]: https://i.imgur.com/NHxV8Gi.png
 [account]: https://i.imgur.com/oXDX1y3.png
 [jira]:https://i.imgur.com/UAMKolj.png
-[appGif]:https://i.imgur.com/1AISLGQ.gifv
+[appGif]:https://i.imgur.com/1AISLGQ.gif
