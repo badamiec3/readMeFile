@@ -70,7 +70,7 @@ Pictured below is an entity relationship diagram (ERD) showing the structure of 
 As shown in the ERD, the app models a many-to-many relationship between User entities and Observation entities using an association table. This allows the user to create observation posts and tag multiple users in the database with one observation. Similarly, many observations can therefore be associated with a user.
 
 
-
+![appGif][appGif]
 
 ## Project Tracking
 The progress of the project was tracked using JiraSoftware.
@@ -176,3 +176,4 @@ Basia Adamiec
 [homenewobservation]: https://i.imgur.com/NHxV8Gi.png
 [account]: https://i.imgur.com/oXDX1y3.png
 [jira]:https://i.imgur.com/UAMKolj.png
+[appGif]:https://i.imgur.com/1AISLGQ.gifv
