@@ -147,19 +147,19 @@ There are a few bugs with the current build of the app:
 * Certain errors do not appear on the front end when they should, for example: if the user inputs incorrect login information, they should receive an 'Incorrect Username' or 'Incorrect Password' warning – instead the page merely reloads
 
 ## Future Improvements
-There are a number of improvements I would like to implement (outside of current bugs):
-* Implementation of the stars and constellation database to allow you to tag these celestial objects in observations
-* Allow the user to tag an indefinite number of users in an observation, rather than a maximum of two
-* Filter observation posts by user, date, location, etc.
-* Aesthetic overhaul, to make the front-end both more appealing *and* more functional
-   * The aesthetics of an interface are important for the functionality of a web app, insofar as a user can only use functionality that they understand. Confusing aesthetic design will obscure the functionality of the app
-   * This would be implemented using CSS, the easiest approach being with Bootstrap
-* Implementation of other solar system objects that require realtime updates, e.g. planets whose locations in the sky are always changing
-   * This would probably be best achieved by referring to another publicly-available database
-* Users can customise their accounts more with profile pictures, add other users as friends, change the colour palette of the website, etc.
+There are several features of the application I would like to improve:
+* Currently, the drop-down list for genre options is only available on the "Create" card. When a user wants to update the genre on an existing card, currently there is no drop-down list available after clicking on the input element. A possible future improvement would be to create this functionality.
+* Due to the fact that the element displaying the description on an existing card is an input, there is no possibility to set an overflow attribute to scroll for longer descriptions. Instead, the user has to move along the input box to read the book description. A future improvement would be to turn the description element into a paragraph, making it possible to change the overflow attribute to display longer descriptions more clearly.
+* Due to time constraints the database currently used is the h2 in-memory database. Migrating onto a cloud-based MySQL database would allow for persistent storage of note cards, which would make them accesible after the back-end and database access is restarted.
+* Improving the aesthetical appearance of the front-end further is also on the agenda for future improvements using Bootstrap.
+* A section could be added along the top of the page allowing the user to customise and personalise their profile picture and personal details.
 
-## Authors
-Harry Volker
+The are a few known bugs which have occured during the development stages, and might occur for the user:
+* A small grey pixel appears on the colour inputs. The cause of this is unknown, and its presence does not detrimentally affect the functionality of the application. 
+* Very rarely the update button has been observed to update the database but not the user display. This is usually fixed immediately by reloading the page.
+
+## Author
+Basia Adamiec
 
 [erd1]: https://i.imgur.com/p9wji5S.png
 [ci]: https://i.imgur.com/2G7joFp.png
