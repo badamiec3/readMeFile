@@ -94,7 +94,7 @@ The child issues of a user story from the first epic are shown below.
 
 ![childIssues][childIssues]
 
-The user stories and child issues were assigned story points to assess the expected difficulty and time spent in order to complete them.
+The user stories and child issues were assigned story points to assess the expected difficulty and time needed to complete them.
 
 The sprint associated with testing is shown below.
 
