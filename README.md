@@ -15,7 +15,7 @@
 * [Project Tracking](#project-tracking)
 * [Risk Assessment](#risk-assessment)
 * [Version Control System](#version-control-system)
-* [Springboot](#springboot)
+* [Spring Boot](#spring-boot)
 * [Testing](#testing)
 * [Front-End Design](#front-end-design)
 * [Known Issues](#known-issues)
@@ -65,7 +65,7 @@ In order to meet the project specifications, the following tools were used:
 
 * Jira Kanban board for project planning;
 * In-memory h2 database to store book note data;
-* Java programming language and Springboot application framework to develop and run back-end code;
+* Java programming language and Spring Boot application framework to develop and run back-end code;
 * HTML, CSS, JavaScript and Visual Studio Code to develop and run front-end code on a live local server;
 * JUnit and Mockito to run unit tests;
 * MockMVC to run integration tests;
@@ -110,13 +110,11 @@ The state of the board as this documentation is being compiled is shown below.
 
 
 ## Risk Assessment
-
 Below is a table of circumstances which could inhibit the ability to achieve the project goals, the assessment of their likelihood and severity, as well as the current and proposed mitigations, repsonses and tolerances. 
 
 ![riskAssessment][riskAssessment]
 
 ## Version Control System
-
 Git was used as the version control system for this project, with two GitHub repositories utilised to store and back up code:
 * CRUD-Project-Front-End: a repository for the HTML, JS and CSS code used to design the front-end user interface;
 * CRUD-Project: a repository for the Java-based Springboot code and test suites.
@@ -131,10 +129,13 @@ Similarly, the commit history for the back-end code is shown below. Several bran
 
 ![gitBack][gitBack]
 
-## Springboot
+## Spring Boot
+Spring Boot is a Java-based framework which allows for easy deployment of Java applications.
+The documentation can be accessed here: https://spring.io/projects/spring-boot
+
+
 
 ## Testing
-
 Testing the functionality of the service class was done using the testing framework Mockito. It allows for testing without establishing connections through using mock objects which return mock data. The integration tests on the controller class were conducted using MockMVC which supports Spring MVC. JUnit, an in-built test framework for Java applications, was used to run the tests. JUnit produces a report on the status and outcome of each test, detailing which were successful, which had errors, and showing any failure traces in a console.
 
 ![tests][tests]
