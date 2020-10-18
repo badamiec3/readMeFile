@@ -26,14 +26,17 @@ The brief provided to us for this project sets the following out as its overall 
 In other words, I have been tasked with creating an application that utilises create, read, update and delete functions in order to function, such that I can demonstrate that I've learnt something over the last few weeks.
 
 ### Additional Requirements
-In addition to what has been set out in the brief, I am also required to include the following:
-* A Trello board
-* A relational database, consisting of at least two tables that model a relationship
-* Clear documentation of the design phase, app architecture and risk assessment
-* A python-based functional application that follows best practices and design principles
-* Test suites for the application, which will include automated tests for validation of the application
-* A front-end website, created using Flask
-* Code integrated into a Version Control System which will be built through a CI server and deployed to a cloud-based virtual machine
+The requirements for the project are as follows:
+* A Jira Board with full expansion on user stories, use cases and tasks needed to complete the project
+* Clear Documentation from a design phase describing the architecture used for the project;
+* A detailed Risk Assessment created at the beginning of the project;
+* A relational database used to store data for the project; 
+* A functional application created in the OOP language, following best practices and design principles covered during training;
+* The application needs to meet the requirements set on the Kanban Board;
+* The application must have a functioning front-end website and integrated API;
+* Fully designed test suites for the application, as well as automated tests for validation of the application;
+* Meeting an acceptable level of test coverage in the back-end and providing consistent reports and evidence of having fulfilled this requirement;
+* Code fully integrated into a Version Control System.
 
 ### My Approach
 To achieve this, I have decided to produce a simple stargazing companion app that must allow the user to do the following:
@@ -56,9 +59,8 @@ To achieve this, I have decided to produce a simple stargazing companion app tha
 * Read observations they and other users have created (satisfies 'Read')
 
 Additionally, I would like to allow the user to:
-* Refer to a database of stars and corresponding constellations with coordinate data
-* Add/delete records of stars and constellations in the database
-* Select every star that belongs to a certain constellation
+* Tick a checkbox 
+* Select a custom colour for the note card they are creating
 
 ## Architecture??
 
@@ -67,7 +69,7 @@ Additionally, I would like to allow the user to:
 ## Project Tracking
 The progress of the project was tracked using JiraSoftware.
 
-The following is the link to the board: https://badamiec.atlassian.net/jira/software/projects/CAF/boards/3/backlog
+The following is the link to the Jira board: https://badamiec.atlassian.net/jira/software/projects/CAF/boards/3/backlog
 
 The state of the board reflects the current state of the project. Old sprints and information on past progress can be accessed in the reports section.
 
@@ -107,6 +109,8 @@ The state of the board as this documentation is being compiled is shown below.
 Below is a table of circumstances which could inhibit the ability to achieve the project goals, the assessment of their likelihood and severity, as well as the current and proposed mitigations, repsonses and tolerances. 
 
 ![riskAssessment][riskAssessment]
+
+## Version Control System
 
 ## Testing
 
