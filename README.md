@@ -3,6 +3,8 @@
 ### Resources:
 * Presentation: ENTER PRESENTATION LINK
 * Jira: https://badamiec.atlassian.net/jira/software/projects/CAF/boards/3/backlog
+* Front-End Code Repo: https://github.com/badamiec3/CRUD-Project-Front-End
+* Back-End Code Repo:https://github.com/badamiec3/CRUD-Project
 
 ## Contents
 * [Brief](#brief)
@@ -112,6 +114,16 @@ Below is a table of circumstances which could inhibit the ability to achieve the
 
 ## Version Control System
 
+Git was used as the version control system for this project, with two GitHub repositories utilised to store and back up code:
+* CRUD-Project-Front-End: a repository for the HTML, JS and CSS code used to design the front-end user interface;
+* CRUD-Project: a repository for the Java-based Springboot code and test suites.
+
+The links to these repositories can be found at the top of this page.
+
+The commit history for the front-end code is shown below, with progress on the basic CRUD functionality taking place on the dev branch eventually merged onto the master branch, and additional features developed in the feature branch.
+
+![gitFront][gitFront]
+
 ## Testing
 
 Testing the functionality of the service class was done using the testing framework Mockito. It allows for testing without establishing connections through using mock objects which return mock data. The integration tests on the controller class were conducted using MockMVC which supports Spring MVC. JUnit, an in-built test framework for Java applications, was used to run the tests. JUnit produces a report on the status and outcome of each test, detailing which were successful, which had errors, and showing any failure traces in a console.
@@ -167,3 +179,4 @@ Basia Adamiec
 [testSprint]:https://i.imgur.com/FARjsuE.png
 [finalSprint]:https://i.imgur.com/Q75My2B.png
 [tests]:https://i.imgur.com/j63yWBO.png
+[gitFront]:https://i.imgur.com/Ltf6KM2.png
