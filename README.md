@@ -1,7 +1,6 @@
 # Footnote
 
 ### Resources:
-* Presentation: ENTER PRESENTATION LINK
 * Jira: https://badamiec.atlassian.net/jira/software/projects/CAF/boards/3/backlog
 * Front-End Code Repo: https://github.com/badamiec3/CRUD-Project-Front-End
 * Back-End Code Repo:https://github.com/badamiec3/CRUD-Project
