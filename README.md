@@ -153,21 +153,7 @@ Upon hitting the 'Create' button, a new note card is generated displaying the us
 
 ![newNote][newNote]
 
-As well as creating more notes, the user may change the information on the existing notes by entering the new information directly into the fields and using the 'Update' button. Note cards can be removed using the bin icon towards the bottom of the note. Ticking or un-ticking the 'Read' checkbox updates the database 'nowRead' attribute for each book note and sets it as a default for the existing notes.
-
-
-
-
-
-Navigating to the 'Enter Observation' page allows them to post an observation and optionally tag up to two other observers, which will appear at the top of the home page:
-
-![enterobservation][enterobservation]
-
-![homenewobservation][homenewobservation]
-
-Navigating to the 'Account' page allows them to view their account details, update them and delete the account if they so desire. Deleting an account will also delete any observation they are associated with:
-
-![account][account]
+As well as creating more notes, the user may change the information on the existing notes by entering the new information directly into the fields and using the 'Update' button. Note cards can be removed using the bin icon towards the bottom of the note. Ticking or un-ticking the 'Read' checkbox updates the database 'nowRead' attribute for each book note and sets it as a default for the existing note.
 
 ## Known Issues
 The are a few known bugs which have occured during the development stages, and might occur for the user:
