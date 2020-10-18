@@ -88,7 +88,7 @@ The design of the project was split up into three epics:
 * Apply Testing To Application
 * Create Documentation and Present
 
-Each epic has assigned to it user stories with requirements which must be met before an epic can be marked as complete. The user stories detail discrete functionalities necessary to ensure a smooth user functionality. The user stories themselves have associated tasks, or 'child issues', which must be completed before a sprint can be completed. They are more technical and specific to what must be done in order to meet the functionality requirememnts. 
+Each epic has assigned to it user stories with requirements which must be met before an epic can be marked as complete. The user stories detail discrete functionalities necessary to ensure a smooth user experience. The user stories themselves have associated tasks, or 'child issues', which must be completed before a sprint can be completed. They are more technical and specific to what must be done in order to meet the functionality requirememnts. 
 
 The child issues of a user story from the first epic are shown below. 
 
