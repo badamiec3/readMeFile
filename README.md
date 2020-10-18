@@ -74,7 +74,9 @@ As shown in the ERD, the app models a many-to-many relationship between User ent
 
 ## Project Tracking
 The progress of the project was tracked using JiraSoftware.
+
 You can find the link to this board here: https://badamiec.atlassian.net/jira/software/projects/CAF/boards/3/backlog
+
 The template used was a Kanban board, and a snapshot of the first sprint is shown below.
 
 
