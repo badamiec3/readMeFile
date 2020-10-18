@@ -152,7 +152,7 @@ There are several features of the application I would like to improve:
 ## Author
 Basia Adamiec
 
-[riskAssessment]:https://i.imgur.com/vZ0VYPo.png
+[riskAssessment]:https://i.imgur.com/Px1ammc.png
 [jira]:https://i.imgur.com/UAMKolj.png
 [appGif]:https://i.imgur.com/1AISLGQ.gif
 [createNote]:https://i.imgur.com/1ZRRAJH.png
