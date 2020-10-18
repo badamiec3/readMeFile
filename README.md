@@ -24,7 +24,7 @@
 ## Footnote
 
 ### Functionality
-Footnote is an interactive application which allows users to create custom note cards on which they can record a book title, author, genre and description. The users can also choose a custom card colour and tick a box if they have read or bought the book already. The user can also view all the created notes, update existing notes, and remove notes. 
+Footnote is an interactive application which allows users to create custom note cards on which they can record a book title, author, genre and description. The users can also choose a custom card colour and tick a box to show whether they have read/bought the book already. The user can also view all the created notes, update existing notes, and remove notes. 
 
 The application was created for a project with the following objective:
 
