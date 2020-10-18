@@ -103,11 +103,10 @@ The state of the board as this documentation is being compiled is shown below.
 
 
 ## Risk Assessment
-The risk assessment for this project can be found in full here: https://docs.google.com/spreadsheets/d/1WfKQAjsBfErpQOywRmnZbCe6zw7yFxESFB8WhQd69Es/edit?usp=sharing
 
-Here's a quick screenshot:
+Below is a table of circumstances which could inhibit the ability to achieve the project goals, the assessment of their likelihood and severity, as well as the current and proposed mitigations, repsonses and tolerances. 
 
-![RiskAssessment][riskassessment]
+![riskAssessment][riskAssessment]
 
 ## Testing
 
@@ -153,8 +152,7 @@ There are several features of the application I would like to improve:
 ## Author
 Basia Adamiec
 
-[riskassessment]: https://i.imgur.com/btY8HRY.png
-
+[riskAssessment]:https://i.imgur.com/vZ0VYPo.png
 [jira]:https://i.imgur.com/UAMKolj.png
 [appGif]:https://i.imgur.com/1AISLGQ.gif
 [createNote]:https://i.imgur.com/1ZRRAJH.png
