@@ -148,7 +148,7 @@ JUnit also tracks the coverage of the tests to show the percentage of the code i
 ![coverage][coverage]
 
 ## Front-End Design
-Can be accessed with VSC.
+Using a Visual Studio Code extension, the front end HTML can be opened on a live local server. Running the Footnote package back-end code with Spring Boot will host the in-memory h2 database from the local machine port detailed in the application-dev properties. The user can then interact with the database by making post, put, delete and get requests through the front-end.
 
 The font-end design of the Footnote application was built with HTML, CSS and Bootstrap. The scripts allowing for the interaction between the front-end and the database/backend were written in JavaScript. 
 Upon access, the user is directed to the following screen:
