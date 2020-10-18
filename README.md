@@ -148,6 +148,7 @@ JUnit also tracks the coverage of the tests to show the percentage of the code i
 ![coverage][coverage]
 
 ## Front-End Design
+Can be accessed with VSC.
 
 The font-end design of the Footnote application was built with HTML, CSS and Bootstrap. The scripts allowing for the interaction between the front-end and the database/backend were written in JavaScript. 
 Upon access, the user is directed to the following screen:
