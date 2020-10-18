@@ -9,8 +9,6 @@
    * [Additional Requirements](#additional-requirements)
    * [My Approach](#my-approach)
 * [Architecture](#architecture)
-   * [Database Structure](#database-structure)
-   * [CI Pipeline](#ci-pipeline)
 * [Project Tracking](#project-tracking)
 * [Risk Assessment](#risk-assessment)
 * [Testing](#testing)
@@ -129,12 +127,11 @@ Here's a quick screenshot:
 
 ## Testing
 
-Testing the functionality of the Service Class was done using Mockito. 
-pytest is used to run unit tests on the app. These are designed to assert that if a certain function is run, the output should be a known value. Jenkins produces console outputs (pictured below) that will inform the developer how many tests the code passed and which tests they failed.
+Testing the functionality of the service class was done using the testing framework Mockito. It allows for testing without establishing connections through using mock objects which return mock data. The integration tests on the controller class were conducted using MockMVC which supports Spring MVC. JUnit, an in-built test framework for Java applications, was used to run the tests. JUnit produces a report on the status and outcome of each test, detailing which were successful, which had errors, and showing any failure traces in a console.
 
-![pytestconsole][pytestconsole]
+![tests][tests]
 
-pytest also produces a coverage report to show how much of the code in the app has been successfully tested. Jenkins automatically moves this report to the 'templates' folder so that it can be navigated to in a browser, as shown in the picture below.
+JUnit also tracks the coverage of the tests to show the percentage of the code in the application which has been tested. The aim for this project was 80% coverage, and in reality 97.5% was achieved as shown below.
 
 ![coverage][coverage]
 
@@ -196,3 +193,4 @@ Basia Adamiec
 [childIssues]:https://i.imgur.com/7OINaUk.png
 [testSprint]:https://i.imgur.com/FARjsuE.png
 [finalSprint]:(https://i.imgur.com/Q75My2B.png
+[tests]:https://i.imgur.com/j63yWBO.png
