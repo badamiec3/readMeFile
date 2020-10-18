@@ -61,16 +61,9 @@ Additionally, I would like to allow the user to:
 * Add/delete records of stars and constellations in the database
 * Select every star that belongs to a certain constellation
 
-## Architecture
-### Database Structure
-Pictured below is an entity relationship diagram (ERD) showing the structure of the database. Everything in green has been implemented into the app, while everything in red has not.
-
-![ERD][erd1]
-
-As shown in the ERD, the app models a many-to-many relationship between User entities and Observation entities using an association table. This allows the user to create observation posts and tag multiple users in the database with one observation. Similarly, many observations can therefore be associated with a user.
+## Architecture??
 
 
-![appGif][appGif]
 
 ## Project Tracking
 The progress of the project was tracked using JiraSoftware.
@@ -115,21 +108,19 @@ pytest also produces a coverage report to show how much of the code in the app h
 ![coverage][coverage]
 
 ## Front-End Design
-The front-end of the app is rudimentary at this stage, as the front-end is built purely with very simple HTML. It is largely functional and stable, however.
 
-When the user navigates to the URL, they are directed to the home page:
+The font-end design of the Footnote application was built with HTML, CSS and Bootstrap. The scripts allowing for the interaction between the front-end and the database/backend were written in JavaScript. 
+Upon access, the user is directed to the following screen:
 
-![homeloggedout][homeloggedout]
+![appGif][appGif]
 
-They are then able to log in or register an account:
+The user can then enter the title, author, and description of the book, select a colour of the note card, and tick a checkbox if they have read/bought the book already, as seen below.
 
-![signup][signup]
+![createNote][createNote]
 
-![login][login]
 
-Once they are logged in, they now have access to the 'Enter Observation' page and their account page:
 
-![homeloggedin][homeloggedin]
+
 
 Navigating to the 'Enter Observation' page allows them to post an observation and optionally tag up to two other observers, which will appear at the top of the home page:
 
@@ -142,9 +133,9 @@ Navigating to the 'Account' page allows them to view their account details, upda
 ![account][account]
 
 ## Known Issues
-There are a few bugs with the current build of the app:
-* If a user attempts to change their email to another email that already exists in the database, the app will inexplicably delete the account entirely
-* Certain errors do not appear on the front end when they should, for example: if the user inputs incorrect login information, they should receive an 'Incorrect Username' or 'Incorrect Password' warning – instead the page merely reloads
+The are a few known bugs which have occured during the development stages, and might occur for the user:
+* A small grey pixel appears on the colour inputs. The cause of this is unknown, and its presence does not detrimentally affect the functionality of the application. 
+* Very rarely the update button has been observed to update the database but not the user display. This is usually fixed immediately by reloading the page.
 
 ## Future Improvements
 There are several features of the application I would like to improve:
@@ -154,9 +145,6 @@ There are several features of the application I would like to improve:
 * Improving the aesthetical appearance of the front-end further is also on the agenda for future improvements using Bootstrap.
 * A section could be added along the top of the page allowing the user to customise and personalise their profile picture and personal details.
 
-The are a few known bugs which have occured during the development stages, and might occur for the user:
-* A small grey pixel appears on the colour inputs. The cause of this is unknown, and its presence does not detrimentally affect the functionality of the application. 
-* Very rarely the update button has been observed to update the database but not the user display. This is usually fixed immediately by reloading the page.
 
 ## Author
 Basia Adamiec
@@ -175,5 +163,7 @@ Basia Adamiec
 [enterobservation]: https://i.imgur.com/WsBmL6k.png
 [homenewobservation]: https://i.imgur.com/NHxV8Gi.png
 [account]: https://i.imgur.com/oXDX1y3.png
+
 [jira]:https://i.imgur.com/UAMKolj.png
 [appGif]:https://i.imgur.com/1AISLGQ.gif
+[createNote]:https://i.imgur.com/1ZRRAJH.png
