@@ -95,23 +95,6 @@ The sprint associated with testing is shown below.
 The final sprint, which is currently in progress, is shown below.
 
 ![finalSprint][finalSprint]
-
-
-The board has been designed such that elements of the project move from left to right from their point of conception to being finished and fully implemented. Each card is also colour-coded according to which element of the project it pertains. From left to right, these lists are:
-* *Project Requirements*
-   A list of requirements set out in the brief in order for this to be a successful project.
-* *Project Resources*
-   List of relevant resources for quick access.
-* *User Stories*
-   Any functionality that is implemented into the project first begins as a user story. This keeps the development of every element of the web app focused on the user experience first.
-* *Planning*
-   The initial stages where a specific element (e.g. a block of code, a server, etc.) is being considered for implementation.
-* *In Progress*
-   Once the element has had any code written for it/exists in any way, it is placed in the 'in progress' list.
-* *Testing*
-   Once the element has been created, it moves to the 'testing' list, where its functionality is tested.
-* *Finished*
-   Any element that is considered to be finished (i.e. works according to its specification) lives in this list.
    
 The state of the board as this documentation is being compiled is shown below.
 
@@ -154,7 +137,7 @@ As well as creating more notes, the user may change the information on the exist
 
 ## Known Issues
 The are a few known bugs which have occured during the development stages, and might occur for the user:
-* A small grey pixel appears on the colour inputs. The cause of this is unknown, and its presence does not detrimentally affect the functionality of the application. 
+* A small grey pixel appears on the colour inputs. The cause of this is unknown, but its presence does not detrimentally affect the functionality of the application. 
 * Very rarely the update button has been observed to update the database but not the user display. This is usually fixed immediately by reloading the page.
 
 ## Future Improvements
@@ -169,20 +152,7 @@ There are several features of the application I would like to improve:
 ## Author
 Basia Adamiec
 
-[erd1]: https://i.imgur.com/p9wji5S.png
-[ci]: https://i.imgur.com/2G7joFp.png
 [riskassessment]: https://i.imgur.com/btY8HRY.png
-
-[pytestconsole]: https://i.imgur.com/qaa3uzp.png
-[trello]: https://i.imgur.com/etDOlwa.png
-[buildstages]: https://i.imgur.com/ba7ntAo.png
-[homeloggedout]: https://i.imgur.com/91NbyWE.png
-[signup]: https://i.imgur.com/71f9E6y.png
-[login]: https://i.imgur.com/vzwaTtv.png
-[homeloggedin]: https://i.imgur.com/F4eXJKR.png
-[enterobservation]: https://i.imgur.com/WsBmL6k.png
-[homenewobservation]: https://i.imgur.com/NHxV8Gi.png
-[account]: https://i.imgur.com/oXDX1y3.png
 
 [jira]:https://i.imgur.com/UAMKolj.png
 [appGif]:https://i.imgur.com/1AISLGQ.gif
